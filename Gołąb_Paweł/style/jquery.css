@@ -1,0 +1,14 @@
+.ui-dialog
+{
+    background-color: #6F58C9;
+}
+
+.ui-dialog-titlebar,.ui-dialog-buttonpane
+{
+    background-color:#7E78D2;
+}
+
+.delete > .ui-dialog-titlebar
+{
+    color:red;
+}

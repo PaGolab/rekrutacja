@@ -1,0 +1,79 @@
+body
+{
+    color: white;
+    margin:0;
+}
+
+#prawy, #lewy
+{
+    position: absolute;
+    top: 0; bottom: 0;
+    overflow: auto;
+    padding-top: 5em;
+}
+
+#prawy
+{
+    right: 0; left: 25%;
+    padding: 3em;
+    background-color: #7E78D2;
+}
+
+#prawy table
+{
+    border-collapse: collapse;
+    border: 1px solid #B6B8D6;
+}
+#prawy th, #prawy td
+{
+    padding: 1em;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+tr:hover
+{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+#prawy td input[type=number] { width: 3em }
+
+#kontrahenci td { padding: 1px }
+#kontrahenci td input[type=number] { width: 7.5em }
+#kontrahenci td input[type=text] { width: 2.5em }
+#kontrahenci td input[name=nip] { width: 6em }
+#kontrahenci td textarea
+{
+    min-width: 10em;
+    width: calc(100% - 1em);
+    margin: 0
+}
+
+#lewy
+{
+    left: 0; right: 75%;
+    background-color: #6F58C9;
+}   
+
+#lewy .list
+{
+    width: calc( 100% - 2em );
+    height: 2em;
+    margin: 1em;
+    padding-top: 1em;
+    border: 1px solid white;
+    border-radius: 1em;
+    text-align: center;
+}
+#lewy .list:hover
+{
+    border: 1px solid #BDEDE0;
+    box-shadow: inset 0px 0px 3em 0px #BDEDE0;
+}
+
+#lewy a
+{
+    color: white;
+    text-decoration: none;
+}
+#lewy a:hover{text-decoration: underline;}
